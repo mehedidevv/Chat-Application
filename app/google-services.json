@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544156198262",
+    "project_id": "chatapp-d3fd7",
+    "storage_bucket": "chatapp-d3fd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544156198262:android:b7e2bd6c4f55f9c160c657",
+        "android_client_info": {
+          "package_name": "com.mehedihasan.chatapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSoJoCHzwiHdIjxuKrwEHkxnN3RkyyIwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

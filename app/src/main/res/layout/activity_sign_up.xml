@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/translate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+    <EditText
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/appLogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="User Name"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edt_background"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/nameTV"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edt_background"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/passwordTV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/emailTV"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edt_background"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordTV"
+        android:text="SIGN UP"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
