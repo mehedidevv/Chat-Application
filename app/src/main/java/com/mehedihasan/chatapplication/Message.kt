@@ -1,8 +1,8 @@
 package com.mehedihasan.chatapplication
 
 class Message {
-    var message: String?= null
-    var senderId: String?= null
+    var message: String? = null
+    var senderId: String? = null
     //Empty Constructor
     constructor(){}
     //Constructor With parameter
